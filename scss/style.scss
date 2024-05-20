@@ -1,0 +1,44 @@
+$g:#034404;
+$lg:#237C04;
+
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top
+{
+    background: $g;
+}
+.bg-body-tertiary
+{
+    background: $lg !important;
+}
+@media(min-width:780px){
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color: #fff;
+}
+}
+.banner
+{
+    background: linear-gradient($g,$lg);
+    img
+    {
+        height: 450px;
+        object-fit: cover;
+    }
+}
+.accordion-button:not(.collapsed)
+{
+    background:lightpink;
+}
+footer
+{
+    background: $lg;
+}
+.copyright{
+    background: $g;
+
+}
